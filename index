@@ -1,0 +1,80 @@
+📄 Privacy Policy — SF Case Tracker
+
+Last updated: December 2025
+
+SF Case Tracker is a Chrome extension designed for internal organizational use to help agents log Salesforce case activity into a Google Sheets spreadsheet owned and managed by the organization.
+
+We take privacy extremely seriously.
+This extension does not collect, sell, share, or store personal data from users or from website visitors.
+
+1. Information the extension accesses
+
+SF Case Tracker only accesses:
+
+1.1. Your Google account basic profile (email and name)
+
+This is obtained exclusively through Chrome’s chrome.identity API to authenticate your Google Sheets access.
+This allows the extension to write new rows to a Google Sheet using your own account.
+
+The extension does not access your emails, contacts, files, or any other Google data.
+
+1.2. Salesforce case fields visible on screen
+
+To assist with auto-filling fields, the extension reads:
+
+Case Number
+
+Contact Reason
+
+These fields are already visible on the Salesforce webpage and are not transmitted anywhere except to the Google Sheet where the agent logs the case.
+
+2. What the extension does NOT collect
+
+The extension does not collect or store:
+
+Browsing history
+
+Personal communications
+
+User activity (keystrokes, clicks, scrolling)
+
+Credentials or authentication data
+
+Location
+
+Sensitive personal data
+
+Any information about Salesforce customers/users beyond what the agent logs manually
+
+3. How data is used
+
+Data is logged into a Google Sheet owned and controlled by the user's organization.
+
+The extension performs no independent data storage beyond local Chrome storage for functional settings (theme, daily counters).
+
+The extension does not transfer data to third parties.
+
+4. Data Sharing
+
+We do not sell, share, or transfer user data to third parties.
+All logged data stays within the organization's Google Workspace environment.
+
+5. Permissions Justification
+
+The extension uses:
+
+identity to authenticate with Google Sheets
+
+storage to store local extension preferences
+
+scripting to read visible fields within Salesforce pages
+
+host permissions to call Google Sheets API and read Salesforce UI
+
+These permissions are strictly limited to the extension's functionality.
+
+6. Contact
+
+For any privacy questions, contact:
+SF Case Tracker Developer
+Email: your email here
